@@ -23,6 +23,10 @@ body{position:relative;isolation:isolate}
 .contact.connect-panel{display:grid;grid-template-columns:220px minmax(0,1fr);align-items:start;gap:44px;padding:44px;background:rgba(232,237,223,.94);border:1px solid #d8e0ce;border-radius:14px}
 .connect-heading h2{font-size:38px;margin:12px 0 0}.connect-groups{display:grid;gap:25px}.contact .connect-label{font-size:10px;text-transform:uppercase;letter-spacing:.15em;font-weight:650;color:var(--muted);margin:0 0 10px}.connect-emails,.connect-profiles{display:grid;gap:10px}.connect-emails{grid-template-columns:repeat(2,minmax(0,1fr))}.connect-profiles{grid-template-columns:repeat(3,minmax(0,1fr))}.contact .connect-link{min-width:0;display:flex;align-items:center;gap:9px;white-space:normal;text-decoration:none;font-size:13px;font-weight:500;line-height:1.4;padding:14px 12px;background:#f8faf3;border:1px solid #d4deca;border-radius:8px;transition:background .15s,border-color .15s}.connect-link:hover{background:white;border-color:#8ba58b}.connect-link-icon{display:flex;align-items:center;justify-content:center;width:22px;flex-shrink:0;font-weight:700;font-family:Georgia,serif;font-size:18px;color:#3c6552}.connect-arrow{margin-left:auto;color:#6b816e;font-size:14px}
 @media(max-width:950px){.contact.connect-panel{grid-template-columns:1fr;gap:26px;padding:30px}}@media(max-width:480px){.connect-emails,.connect-profiles{grid-template-columns:1fr}.contact.connect-panel{padding:24px}.contact .connect-link{padding:13px 15px}}
+
+header{position:sticky;top:0;z-index:100;background:rgba(246,245,240,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 3px 16px rgba(23,59,54,.04)}
+html{scroll-padding-top:110px}
+@media(max-width:760px){html{scroll-padding-top:140px}}
 </style>
 </head>
 <body>
